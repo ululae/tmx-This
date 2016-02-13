@@ -1,0 +1,652 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: #FFFFFF;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 300;
+/*  padding: 10px 10px 10px 10px;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* BODY
+/*******************************************/
+
+.body {
+  border: 1px solid red;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  opacity: 1;
+  display: block;
+  cursor: inherit;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  background-size: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-top: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 70px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: static;
+  filter: blur(0px) grayscale(0) sepia(0) invert(0) saturate(1) brightness(1) contrast(1) opacity(1) hue-rotate(0deg);
+  -webkit-filter: blur(0px) grayscale(0) sepia(0) invert(0) saturate(1) brightness(1) contrast(1) opacity(1) hue-rotate(0deg);
+  -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  -ms-transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border-top: 0px solid #000;
+  border-left: 0px solid #000;
+  border-right: 0px solid #000;
+  border-bottom: 0px solid #000;
+  border-radius: 0px 0px 0px 0px;
+  font-family: sans-serif;
+  color: #000;
+  font-size: inherit;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  text-overflow: inherit;
+  white-space: inherit
+}
+
+.body:hover {
+}
+
+.body:active {
+}
+
+.body:focus {
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+.header {
+  border: 1px solid red;
+  width: auto;
+  height: 75px;
+  overflow: visible;
+  opacity: 1;
+  display: block;
+  cursor: inherit;
+  box-sizing: border-box;
+  background: #FF4646;
+  background-size: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  filter: blur(0px) grayscale(0) sepia(0) invert(0) saturate(1) brightness(1) contrast(1) opacity(1) hue-rotate(0deg);
+  -webkit-filter: blur(0px) grayscale(0) sepia(0) invert(0) saturate(1) brightness(1) contrast(1) opacity(1) hue-rotate(0deg);
+  -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  -ms-transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border-top: 0px solid #000;
+  border-left: 0px solid #000;
+  border-right: 0px solid #000;
+  border-bottom: 0px solid #000;
+  border-radius: 0px 0px 0px 0px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 30px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  text-overflow: inherit;
+  white-space: inherit
+}
+
+.header:hover {
+}
+
+.header:active {
+}
+
+.header:focus {
+}
+
+.header_icons {
+  width: auto;
+  height: 70px;
+  overflow: visible;
+  opacity: 1;
+  display: block;
+  cursor: inherit;
+  box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  filter: blur(0px) grayscale(0) sepia(0) invert(0) saturate(1) brightness(1) contrast(1) opacity(1) hue-rotate(0deg);
+  -webkit-filter: blur(0px) grayscale(0) sepia(0) invert(0) saturate(1) brightness(1) contrast(1) opacity(1) hue-rotate(0deg);
+  -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  -ms-transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  transform: translateX(0px) translateY(0px) rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border-top: 0px solid #000;
+  border-left: 0px solid #000;
+  border-right: 0px solid #000;
+  border-bottom: 0px solid #000;
+  border-radius: 0px 0px 0px 0px;
+  font-family: inherit;
+  color: #000;
+  font-size: inherit;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-align: right;
+  text-decoration: inherit;
+  text-transform: inherit;
+  text-overflow: inherit;
+  white-space: inherit
+}
+
+.header_icons:hover {
+}
+
+.header_icons:active {
+}
+
+.header_icons:focus {
+}
+
+/******************************************
+/* SPAN and HAMBURGER, credit: http://codepen.io/Symsym/pen/QbeeEw/;
+/*******************************************/
+
+.floating-menu {
+  z-index: 100;
+  position: fixed;
+  padding: 20px;
+  padding-right: 35px;
+  top: 7px;
+  left: 10px;
+}
+
+
+.hamburger {
+  width: 65px;
+  height: 50px;
+  position: absolute;
+  
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
+.bar {
+  background: #6BFF1D;
+  height: 7px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  -webkit-transition: width 0.3s cubic-bezier(0.5, -0.55, 0.6, 1.57);
+  transition: width 0.3s cubic-bezier(0.5, -0.55, 0.6, 1.57);
+}
+.bar:first-of-type {
+  width: 45px;
+}
+.bar:nth-of-type(2) {
+  width: 35px;
+}
+.bar:last-of-type {
+  width: 55px;
+}
+.hamburger:hover>.bar:first-of-type {
+  width: 30px;
+}
+.hamburger:hover>.bar:nth-of-type(2) {
+  width: 55px;
+}
+.hamburger:hover>.bar:last-of-type {
+  width: 40px;
+}
+
+/******************************************
+/* SLIDE TOP HEADER: Credit: http://callmenick.com/post/slide-and-push-menus-with-css3-transitions ;
+/*******************************************/
+
+/**
+ * Drop-down Menu overview.
+ */
+
+.c-menu {
+  position: fixed;
+  z-index: 200;
+  background-color: #000000;
+  opacity: 0.5;
+  transition: transform 0.5s;
+  font-size: 50px;
+}
+
+.c-menu__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Close button resets.
+ */
+.c-menu__close {
+  color: #fff;
+  background-color: #3184a1;
+  font-size: 14px;
+  border: none;
+  box-shadow: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/**
+ * Close button resets.
+ */
+.c-menu__close:focus {
+  outline: none;
+}
+
+/**
+ * Body states.
+ *
+ * When a menu is active, we want to hide the overflows on the body to prevent
+ * awkward document scrolling.
+ */
+body.has-active-menu {
+  overflow: hidden;
+}
+
+/**
+ * Mask component
+ */
+
+.c-mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+}
+
+.c-mask.is-active {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.c-menu--slide-top {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 25%;
+  /*overflow-x: scroll;*/
+}
+
+.c-menu--slide-top .c-menu__items {
+  display: block;
+  text-align: center;
+}
+
+.c-menu--slide-top .c-menu__item {
+  display: block;
+  line-height: 60px;
+}
+
+.c-menu--slide-top .c-menu__link {
+  display: block;
+  padding: 0 4px;
+  color: #fff;
+}
+
+.c-menu--slide-top .c-menu__close {
+/*  display: inline-block;
+  margin-right: 12px;
+  padding: 0 24px;
+  height: 60px;
+  line-height: 60px;*/
+}
+
+.c-menu--slide-top {
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+}
+
+.c-menu--slide-top.is-active {
+  transform: translateY(0);
+}
+
+/******************************************
+/* SLIDING SECTIONS Credit: http://codepen.io/surjithctly/pen/pLDwe;
+/*******************************************/
+.message {
+position: absolute;
+top: -1000px;
+/*margin-left:25%;
+margin-right:25%;*/
+width: 65%;
+height: 875px;
+/*padding: 20px;*/
+margin-top: 150px;
+transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+overflow: hidden;
+
+box-sizing: border-box;
+  
+}
+
+/*.message h1 {
+  color:#FFF;
+}
+*/
+
+#toggle {
+  position:absolute;
+  appearance:none;
+  cursor:pointer;
+  left:100px;
+  top:100px;
+}
+
+#toggle + label {
+  position:absolute;
+  cursor:pointer;
+  padding:10px;
+  background: #6BFF1D;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:20px 50px;
+  transition:all 500ms ease;
+}
+#toggle + label:after {
+  content:"Open" 
+}
+
+.container {
+transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  padding: 5em 3em;
+}
+
+#toggle:checked ~ .message {
+  top: 0px;
+}
+
+#toggle:checked ~ .container {
+  margin-top: 875px;
+}
+
+#toggle:checked + label {
+  background:#FF4646;
+}
+
+#toggle:checked + label:after {
+  content:"Close"
+}
+
+/******************************************
+/* TMX GENERATOR
+/*******************************************/
+.generator {
+  /*clear:both;*/
+  border: 5px solid #6BFF1D;
+  padding: 30px;
+  background-color: white;
+
+}
+
+.generator h2 {
+  color: #FF4646;
+  font-size: 25px;
+
+}
+
+#results {
+  float: left;
+  width: 100%;
+  height: 250px;
+  resize: none;
+}
+
+#sourceText,
+#translation {
+  width: 100%;
+}
+
+.last-step{
+   clear: left;
+   padding-top: 20px;
+   /*border: 1px solid red;*/
+}
+
+.gen-button {
+    background-color: white; 
+    color: #FF4646; 
+    border: 2px solid #FF4646;
+    border-radius: 2px;
+}
+
+.gen-button:hover {
+    background-color: #FF4646;
+    color: white;
+    border-radius: 2px;
+}
+
+/******************************************
+/* SECTION ONE
+/*******************************************/
+
+.section_one {
+clear: both;
+}
+
+.section_one:hover {
+}
+
+.section_one:active {
+}
+
+.section_one:focus {
+}
+
+/******************************************
+/* ABOUT
+/*******************************************/
+
+.about {
+  clear: both;
+  background-color: white;
+  color: white;
+  overflow: visible;
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 70px;
+  font-size: 30px;
+  color: #FF4646;
+  border: 5px solid #6BFF1D;
+  
+}
+
+.about:hover {
+}
+
+.about:active {
+}
+
+.about:focus {
+} 
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+  background: #FF4646;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  /*margin: 0 26px 75px;*/
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
