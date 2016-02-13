@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+	<!-- external Font link at Google -->
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+  <!-- external CSS link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<body>
+
+<!-- <div id="o-wrapper" class="o-wrapper"> -->
+
+<div class="body">
+
+<input type="checkbox" name="toggle" id="toggle">
+<label for="toggle"></label>
+
+<div class="container">
+
+  <p>Translating on the go and need a quick alignment? Updating a TM with a few words? Look no further!</p>
+  <br>
+  <p>tmx!This is a browser based TMX Generator that allows you to create a TMX by inputting as many source and target translation pairs as you have.</p>
+  <br>
+  <p>Click the Open button to give the generator a go!</p>
+  
+
+</div>
+
+<div class="generator message">
+  <h2>tmx!This</h2>
+  <br>
+  <p>1. Select the source and target language codes:</p>
+  <br>
+  <form id="tmxGenerator">
+        Source Language: <select id="SourceL">
+                <option value="en-us">en-US</option>
+                <option value="en-uk">en-UK</option>
+                <option value="zh-cn">zh-CN</option>
+                <option value="es-la">es-LA</option>
+        </select><br>
+        Target Language: <select id="TargetL">
+                <option value="en-us">en-US</option>
+                <option value="en-uk">en-UK</option>
+                <option value="zh-cn">zh-CN</option>
+                <option value="es-la">es-LA</option>
+        </select>
+        <br>
+        <button class="gen-button" id="createHeader">Create Header</button>
+  <br>
+  <br>
+  <p>2. Enter source text and target translation:</p>
+  <br>
+  Source Text: <input type="text" id="sourceText"><br>
+  Translation: <input type="text" id="translation"><br>
+       <button class="gen-button" id="add">Add!</button> <button class="gen-button" id="reset">Reset</button><br><br>
+            <textarea id="results" placeholder="Code for TMX will appear here. This area is also editable."></textarea>
+
+ <div class="last-step">
+  <p>3. All set? Go ahead and generate your new TMX file!</p> <button class="gen-button" id="generate">tmxThis!</button> or <button class="gen-button" id="googleDoc">Send to GoogleDocs</button>
+  </div>
+  </form> 
+</div>
+
+<div class='header' >tmx!This 
+	<div class='header_icons' ><a href="https://www.linkedin.com/in/vctrlee/"><img src='img/linkedin.png'></a><a href="https://github.com/"><img src='img/github.png'></a><a href="https://www.instagram.com/curiouslydone/"><img src='img/instagram.png'></a><a href="email:vctrlee@outlook.com"><img src='img/email.png'></a>
+	</div>
+
+</div>
+<!-- 	<nav class="floating-menu">
+	<button id="c-button--slide-top" class="c-button">
+	<div class="hamburger">
+  		<div class="bar"></div>
+  		<div class="bar"></div>
+  		<div class="bar"></div>
+	</div>
+	</button>
+	</nav> -->
+
+
+
+<div class='section_one' > 
+</div>
+
+</div>
+
+<div class='about' >
+<p>Hi! I'm Victoria.</p>
+<br>
+<p>I'm a project manager specializing in language solutions.</p>
+<br>
+<p>When I'm not helping people share their content in different languages, I like to 	code, game, and grow things.</p>
+
+</div>
+
+ <footer class="">
+    <div class="footer-container">
+      <p>&copy; 2016, victoria lee</p>
+    </div>
+  </footer>
+
+
+
+<!-- </div> --><!-- /o-wrapper -->
+
+<!-- <nav id="c-menu--slide-top" class="c-menu c-menu--slide-top">
+  <button class="c-menu__close"> x </button>
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Projects</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Contact</a></li>
+  </ul>
+
+</nav> --><!-- /c-menu slide-top -->
+
+<!-- <div id="c-mask" class="c-mask"></div> --><!-- /c-mask -->
+
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
